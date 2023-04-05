@@ -1,0 +1,96 @@
+{
+    "menu": [
+        {
+            "text": "Home",
+            "link": "/"
+        },
+        {
+            "text": "About",
+            "link": "#about",
+            "isAnchor": true
+        },
+        {
+            "text": "Contact",
+            "link": "#footer",
+            "isAnchor": true
+        }
+    ],
+    "homePage": {
+        "hero": {
+            "image": "images/phone.png",
+            "imageAlt": "Phone",
+            "title": "Travel the world & <span>meet</span> new friends.",
+            "text": "Create custom landing pages with Amelie that convert more visitors than any website.<br> With lots of unique blocks, you can easily build a page without coding.",
+            "button": "I want to join",
+            "label": "Email address"
+        },
+        "reviews": [
+            {
+                "rating": 5,
+                "text": "OMG! I cannot believe that I have got a brand new landing page after getting Amelie. It was super easy to edit and publish. Everyone should try it!",
+                "author": "John Doe, CEO of Company"
+            },
+            {
+                "rating": 5,
+                "text": "You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, make the change and click save.",
+                "author": "John Doe, CEO of Company"
+            }
+        ],
+        "about1": {
+            "title": "Making trip is fun. Travel with friends.",
+            "text": "Create custom landing pages with Amelie that converts more visitors than any website. With lots of unique blocks, you can easily build a page without coding.",
+            "image": "images/phone2.png",
+            "imageAlt": "About",
+            "iconBox": [
+                {
+                    "icon": "1",
+                    "title": "Find your trip",
+                    "description": "Create custom landing pages with Amelie that converts more visitors than any website."
+                },
+                {
+                    "icon": "2",
+                    "title": "Book your trip",
+                    "description": "Create custom landing pages with Amelie that converts more visitors than any website."
+                }
+            ]
+        },
+        "about2": {
+            "title": "See the world & spend less always.",
+            "text": "Create custom landing pages with Amelie that converts more visitors than any website. With lots of unique blocks, you can easily build a page without coding.",
+            "image": "images/phone3.png",
+            "imageAlt": "About"
+        },
+        "about3": {
+            "title": "Improving your travel experience.",
+            "text": "Create custom landing pages with Amelie that converts more visitors than any website. With lots of unique blocks, you can easily build a page without coding.",
+            "image": "images/phone.png",
+            "imageAlt": "About",
+            "button": {
+                "type": "link",
+                "text": "Get this app",
+                "link": "#"
+            }
+        },
+        "download": {
+            "title": "Get the app now",
+            "text": "Create custom landing pages with Amelie that converts more visitors than any website.",
+            "image": "images/phone.png",
+            "imageAlt": "Phone",
+            "button": [
+                {
+                    "image": "images/download-app-store.png",
+                    "altImage": "App Store",
+                    "link": "#"
+                },
+                {
+                    "image": "images/download-google-play.png",
+                    "altImage": "Google Play",
+                    "link": "#"
+                }
+            ]
+        }
+    },
+    "footer": {
+        "copyright": "© 2023 Company, Inc."
+    }
+}

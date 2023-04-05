@@ -1,0 +1,19 @@
+.btn {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	height: 60px;
+	padding: 0 calc($element-padding / 2);
+	background-color: red;
+	border-radius: 5px;
+
+	&,
+	&:link,
+	&:visited {
+		text-decoration: none;
+	}
+
+	span {
+		color: $col-white;
+	}
+}

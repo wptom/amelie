@@ -1,0 +1,14 @@
+.review {
+	&__rating {
+		color: #FFBA00;
+	}
+
+	&__text,
+	&__author {
+		font-size: 1.1em;
+	}
+
+	&__author {
+		font-style: italic;
+	}
+}

@@ -1,0 +1,66 @@
+// Grid
+$grid-breakpoints: (
+				xs: 0,
+				sm: 576px,
+				md: 768px,
+				lg: 992px,
+				xl: 1200px,
+				xxl: 1400px
+) !default;
+$container-max-widths: (
+				sm: 540px,
+				md: 720px,
+				lg: 960px,
+				xl: 1140px,
+				xxl: 1320px
+) !default;
+$enable-grid-classes: true !default;
+$enable-cssgrid: false !default;
+$grid-columns: 12 !default;
+$grid-gutter-width: 34px !default;
+$grid-row-columns: 6 !default;
+
+// General
+$transition: all 0.5s ease-in-out;
+$element-margin: 50px;
+$element-padding: 50px;
+
+// Colors - basic
+$col-white: #fff;
+$col-black: #000;
+$col-green: #40D41D;
+$col-green-light: #95F039;
+$col-orange: #FF8000;
+$col-yellow: #FFBA00;
+$col-gray-dark: #181A21;
+$col-gray: #9DA2B4;
+$col-light: #D5D8E3;
+$col-violet: #5454d4;
+
+// Body element settings
+$col-bg: $col-white;
+$col-text: $col-gray-dark;
+
+// Font
+$font-family-base: 'Montserrat', sans-serif;
+$font-size-default: 21px;
+$line-height-default: 39px;
+$font-size-desktop: 21px;
+$line-height-desktop: 39px;
+
+$font-weight-thin: 100;
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+$font-size-h1: 60px;
+$font-size-h2: 50px;
+$font-size-h3: 40px;
+$font-size-h4: 30px;
+$font-size-h5: 21px;
+
+// Heading font-sizes and line-heights for both mobile and desktop versions are located at abstracts/_mixins.scss
+// Ex.: @include title-size-1
+

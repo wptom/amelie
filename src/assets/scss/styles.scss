@@ -1,0 +1,115 @@
+// Reset
+// @import "./base/reset";
+
+// Variables, Mixins
+@import "./abstracts/variables";
+@import "./abstracts/mixins";
+
+// Typography
+@import "./base/typography";
+
+// Bootstrap imports
+@import "./vendor/bootstrap";
+
+// Components
+@import "./components/button";
+@import "./components/logo-text";
+@import "./components/navigation";
+@import "./components/text-box";
+@import "./components/review";
+@import "./components/icon-box";
+
+// Common basic styles
+*,
+:hover {
+	transition: $transition;
+}
+
+*,
+*::before,
+*::after,
+ul,
+ol {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+html:focus-within,
+body {
+	scroll-behavior: smooth;
+	overflow-y: scroll;
+}
+
+html,
+body,
+#root {
+	height: 100%;
+	min-height: 100%;
+}
+
+body {
+	position: relative;
+	height: 100%;
+	background-color: $col-bg;
+	color: $col-text;
+	font-family: $font-family-base;
+	font-size: $font-size-default;
+	font-weight: $font-weight-normal;
+	line-height: $line-height-default;
+	overflow-x: hidden;
+}
+
+.img {
+	max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.15;
+	margin-bottom: 1.8rem;
+}
+
+h1,
+h2 {
+	font-size: $font-size-h3;
+	font-weight: $font-weight-bold;
+
+	@include media-breakpoint-up(lg) {
+		font-size: $font-size-h1;
+	}
+}
+
+// Override components' styles
+.section {
+	padding-top: $element-padding;
+	padding-bottom: $element-padding;
+
+	@include media-breakpoint-up(lg) {
+		padding-top: $element-padding * 2;
+		padding-bottom: $element-padding * 2;
+	}
+
+	&--reviews {
+		background-color: #5454d4;
+
+		.review {
+			&__text,
+			&__author {
+				color: $col-white;
+			}
+		}
+	}
+}
+
+.footer {
+	padding: calc($element-margin/2) 0;
+	border-top: 1px solid $col-gray;
+
+	.logo-text {
+		&,
+		svg {
+			font-size: 1.5rem;
+		}
+	}
+}
