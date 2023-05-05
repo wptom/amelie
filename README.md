@@ -5,4 +5,4 @@ React template.
 1. `cd amelie`
 2. `npm install`
 3. `npm start`
-  test
+  test2
